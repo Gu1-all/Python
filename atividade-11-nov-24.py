@@ -19,7 +19,7 @@ class Funcionario:
 class Gerente(Funcionario):
     def __init__(self, nome, cargo, salario, bonus):
         super().__init__(nome, cargo, salario)
-        self.bonus = bonus
+        self.bonus = _bonus
 
     def get_salario(self):
         return super().get_Salario() + self.bonus
