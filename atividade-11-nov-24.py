@@ -22,7 +22,7 @@ class Gerente(Funcionario):
         self._bonus = bonus
 
     def get_salario(self):
-        return super().get_Salario() + self.bonus
+        return super().get_Salario() + self._bonus
 
 
 funcionario = Funcionario("João", "Colaborador", 2000)
